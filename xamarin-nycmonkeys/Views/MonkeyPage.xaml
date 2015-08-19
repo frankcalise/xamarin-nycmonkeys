@@ -8,7 +8,7 @@
 	<StackLayout Padding="20" Spacing="10">
 		<Image Source="{Binding Image}" />
 		<Label Text="{Binding Location}" />
-		<Label Text="{Binding Details}" />
-		<Button x:Name="SpeakButton" Text="Speak" />
+		<Label x:Name="LabelDetails" Text="{Binding Details}" />
+		<Button x:Name="ButtonSpeak" Text="Speak" />
 	</StackLayout>
 </ContentPage>

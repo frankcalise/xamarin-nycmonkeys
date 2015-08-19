@@ -13,13 +13,13 @@ namespace xamarinnycmonkeys.Views
         {
             InitializeComponent();
 
-            SpeakButton.Clicked += async (sender, e) => 
+			ButtonSpeak.Clicked += async (sender, e) => 
             {
                 try
                 {
                     await SpeakButtonClicked();
                 }
-                catch(Exception ex)
+                catch
                 {
                     DisplayAlert("Error", "Unable to speak text!", "OK");
                 }
@@ -28,7 +28,7 @@ namespace xamarinnycmonkeys.Views
 
         private async Task SpeakButtonClicked()
         {
-            CrossTextToSpeech.Current.Speak("hello");
+			CrossTextToSpeech.Current.Speak(LabelDetails.Text);
         }
     }
 }
