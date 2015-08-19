@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin-nycmonkeys", "xamarin-nycmonkeys\xamarin-nycmonkeys.csproj", "{D71F67B4-99F8-4FEE-859A-B85EED93B32E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin-nycmonkeys.Droid", "Droid\xamarin-nycmonkeys.Droid.csproj", "{0D060BE3-1F81-4977-A942-3E97D5FEE9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xamarin-nycmonkeys.UITests", "UITests\xamarin-nycmonkeys.UITests.csproj", "{77B8D22F-5DF8-4B56-904C-C8203752A0F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D060BE3-1F81-4977-A942-3E97D5FEE9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D060BE3-1F81-4977-A942-3E97D5FEE9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D060BE3-1F81-4977-A942-3E97D5FEE9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D060BE3-1F81-4977-A942-3E97D5FEE9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B8D22F-5DF8-4B56-904C-C8203752A0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B8D22F-5DF8-4B56-904C-C8203752A0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B8D22F-5DF8-4B56-904C-C8203752A0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B8D22F-5DF8-4B56-904C-C8203752A0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71F67B4-99F8-4FEE-859A-B85EED93B32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71F67B4-99F8-4FEE-859A-B85EED93B32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71F67B4-99F8-4FEE-859A-B85EED93B32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71F67B4-99F8-4FEE-859A-B85EED93B32E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
